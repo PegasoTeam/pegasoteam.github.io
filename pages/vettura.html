@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- ICONE BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- CSS PERSONALE -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>La Vettura | Pegaso Team</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2 text-white" href="../index.html">
+                <img src="../images/logo_pegaso.png" class="logo-pegaso-nav" alt="Pegaso"
+                    style="height:32px;background:white;border-radius:50%;padding:2px;">
+                <span class="fw-bold">PEGASO TEAM</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="chi-siamo.html">Chi Siamo</a></li>
+                    <li class="nav-item"><a class="nav-link active text-white" href="vettura.html">La Vettura</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="competizione.html">Competizione</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="sponsor.html">Sponsor</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contatti.html">Contatti</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container py-5">
+        <h6 class="gold-text fw-bold">VEHICLE DEVELOPMENT</h6>
+        <h1 class="display-5 fw-bold">Dalla Carta al CFD</h1>
+
+        <div class="my-5 text-center">
+            <img src="../images/vettura_nuda.jpg" class="img-fluid rounded-4 vettura-nuda-img" alt="Vettura finale">
+        </div>
+        <!-- INFORMAZIONI MACCHINA -->
+        <div class="row g-4">
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card-dark p-4 h-100 rounded-3">
+                    <h6 class="gold-text fw-bold">REAR SECTION</h6>
+                    <p class="small text-secondary">
+                        Ala sottile con incidenza minima, per generare meno resistenza possibile. I supporti sono
+                        nascosti nella carrozzeria coì che l'aria arrivi pulita senza il disturbo delle ruote
+                    </p>
+                    <span class="badge bg-warning text-dark mt-2">NACA 0006</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                <div class="card-dark p-4 h-100 rounded-3">
+                    <h6 class="gold-text fw-bold">FRONT SECTION</h6>
+                    <p class="small text-secondary">
+                        Ispirato alle gare di accelerazione e alla Formula 1. La prima versione era troppo flessibile,
+                        l'abbiamo rifatta con supporti più resistenti. Curva verso l'alto per mandare l'aria fuori dalle
+                        ruote. Disegnato su carta, poi realizzato in 3D con Fusion 360.
+                    </p>
+                    <span class="badge bg-dark border mt-2">Fusion 360</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-12 col-sm-12">
+                <div class="card-dark p-4 h-100 rounded-3">
+                    <h6 class="gold-text fw-bold">AERODYNAMICS</h6>
+                    <p class="small text-secondary">
+                        Fiancate e diffusore ridisegnati, vettura più stretta, fondo rifatto per far passare l'aria
+                        sotto. Un piccolo elemento divide l'aria sopra e sotto. Assi più corti. Ogni sceltaserve a far
+                        passare l'aria con meno resistenza possibile.
+                    </p>
+                    <span class="badge bg-warning text-dark mt-2">ANSYS Fluent 15 m/s</span>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                <div class="bg-white text-dark p-4 rounded-3 h-100">
+                    <h6 class="gold-text fw-bold">BODY & FLOOR</h6>
+                    <p class="small">
+                        La prima versione era larga con il fondo piatto. Ora la vettura è più stretta e affusolata, il
+                        fondo ha tre canali che evitano il sollevamento. Un elemento dedicato guida l'aria tra le
+                        sezioni.
+                    </p>
+                    <h6 class="gold-text fw-bold mt-4">CARGO POINT</h6>
+                    <p class="small">
+                        La stampa 3D da sola è spesso leggera. Un vano deedicato per i pesi, ci permette di aggiungere
+                        con precisione il peso minimo del regolamento, tenendo il baricentro al centro.
+                    </p>
+                    <ul class="small mt-3">
+                        <li>Da scrivere</li>
+                        <li>Da scrivere</li>
+                        <li>Da scrivere</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-md-12 col-sm-12">
+                <div class="card-dark p-4 h-100 rounded-3">
+                    <h6 class="gold-text fw-bold">Ansys</h6>
+                    <p class="small text-secondary mt-3">
+                        Prima di stampare, simuliamo il flusso dell'aria: mappe di velocità, pressione e vortici, ci mostrano dove la vettura perde l'energia. Ogni modifica che facciamo passa da qui. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="py-3 text-center text-secondary small">© 2026 Pegaso Team</footer>
+
+    <!-- JS BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
